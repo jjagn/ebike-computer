@@ -279,13 +279,68 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(181, 77, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 11)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(107, 188, 255)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/IO/CAN_H": [
+        "CAN"
+      ],
+      "/IO/CAN_L": [
+        "CAN"
+      ],
+      "/IO/display.CS": [
+        "SPI"
+      ],
+      "/IO/display.DC": [
+        "SPI"
+      ],
+      "/IO/display.GND": [
+        "SPI"
+      ],
+      "/IO/display.RES": [
+        "SPI"
+      ],
+      "/IO/display.SCK": [
+        "SPI"
+      ],
+      "/IO/display.SDA(MOSI)": [
+        "SPI"
+      ],
+      "/IO/display.VCC": [
+        "SPI"
+      ],
+      "/IO/display{7W_SPI}": [
+        "SPI"
+      ],
+      "/IO/{CAN}": [
+        "CAN"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -375,7 +430,21 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "7W_SPI": [
+        "SDA(MOSI)",
+        "CS",
+        "DC",
+        "RES",
+        "VCC",
+        "SCK",
+        "GND"
+      ],
+      "CAN": [
+        "CAN_H",
+        "CAN_L"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -416,7 +485,7 @@
         "uuid": "4009f96e-4900-49c5-a598-c1fd5202ca89"
       }
     ],
-    "used_designators": "C1,#PWR3-8,J1,U1,U3",
+    "used_designators": "#PWR1-4,#PWR8-16,J1-10,U1-2",
     "variants": []
   },
   "sheets": [
@@ -431,6 +500,14 @@
     [
       "5a7e30cb-26ab-4cc2-9905-1435afabfd90",
       "Power Regulation"
+    ],
+    [
+      "0cc47c75-7aac-4c0b-8dbe-19b6d5413c6d",
+      "IO"
+    ],
+    [
+      "e512bbc2-61c2-4975-bfa8-51547cac1b32",
+      "LED Drivers"
     ]
   ],
   "text_variables": {},

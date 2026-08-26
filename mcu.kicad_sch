@@ -160,6 +160,251 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface_CAN_LIN:TCAN330"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TCAN330"
+				(at 2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "High-Speed CAN Transceiver"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TCAN330_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCAN330_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SHDN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32F4:STM32F405RGTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1933,49 +2178,107 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 17.78 158.75)
+		(end 71.12 194.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "663003c0-92d2-494b-9c56-8838634e59a4")
+	)
+	(text "CAN"
+		(exclude_from_sim no)
+		(at 19.304 157.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2fa6bfdd-3845-4e7b-a7e7-5fa399a81f0d")
+	)
 	(junction
-		(at 116.84 46.99)
+		(at 158.75 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c319917-c45a-44c1-bc39-12f9be1bd8dc")
 	)
 	(junction
-		(at 111.76 46.99)
+		(at 153.67 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20928e05-31db-48bc-9c99-4f27ea332866")
 	)
 	(junction
-		(at 97.79 30.48)
+		(at 139.7 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f76c99c-d985-435a-b785-f4481867afa2")
 	)
 	(junction
-		(at 109.22 46.99)
+		(at 151.13 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2abd4f2-e1bb-4f3b-b92b-69da1355a4e8")
 	)
 	(junction
-		(at 111.76 143.51)
+		(at 153.67 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3d6b49c-2fdb-4a28-9ee1-5d75f6e5223b")
 	)
 	(junction
-		(at 114.3 46.99)
+		(at 156.21 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b93e7910-356c-4dc2-9b66-3b6124c4c751")
 	)
 	(no_connect
-		(at 106.68 46.99)
+		(at 25.4 181.61)
+		(uuid "39b4aa7f-b570-40dc-8a96-7bc36db2768a")
+	)
+	(no_connect
+		(at 25.4 179.07)
+		(uuid "76b23446-1e71-427e-8d05-3f049dfab667")
+	)
+	(no_connect
+		(at 148.59 53.34)
 		(uuid "7b48c796-3885-43f4-8577-13c6ed4f7be2")
+	)
+	(bus_entry
+		(at 58.42 171.45)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d0a8b9-6bd4-4ec5-916b-dedb09954b4b")
+	)
+	(bus_entry
+		(at 58.42 176.53)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb7b7ea-add0-47a9-826a-c3ccdf16fdeb")
+	)
+	(bus
+		(pts
+			(xy 242.57 80.01) (xy 207.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00086520-9c3c-4ca1-84fb-77cb3c1e50d2")
 	)
 	(wire
 		(pts
-			(xy 109.22 46.99) (xy 114.3 46.99)
+			(xy 151.13 53.34) (xy 156.21 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 140.97 82.55)
+			(xy 173.99 88.9) (xy 182.88 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1993,9 +2296,29 @@
 		)
 		(uuid "443c5bd9-c36e-4768-af03-8a98f5fcba1b")
 	)
+	(bus
+		(pts
+			(xy 63.5 171.45) (xy 58.42 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481b0a84-97ae-4dd3-a8a9-258e3c53d9be")
+	)
+	(bus
+		(pts
+			(xy 207.01 80.01) (xy 207.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d62758-98d1-43d0-9d69-99d400e79e44")
+	)
 	(wire
 		(pts
-			(xy 109.22 30.48) (xy 109.22 46.99)
+			(xy 151.13 36.83) (xy 151.13 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 30.48) (xy 97.79 30.48)
+			(xy 134.62 36.83) (xy 139.7 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2015,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 85.09) (xy 140.97 85.09)
+			(xy 173.99 91.44) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +2348,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 146.05) (xy 111.76 143.51)
+			(xy 153.67 152.4) (xy 153.67 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2035,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 143.51) (xy 114.3 143.51)
+			(xy 153.67 149.86) (xy 156.21 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2368,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 30.48) (xy 109.22 30.48)
+			(xy 55.88 179.07) (xy 50.8 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ba0882-7ca0-41c3-9e64-c213bff1cc28")
+	)
+	(wire
+		(pts
+			(xy 139.7 36.83) (xy 151.13 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 46.99) (xy 116.84 46.99)
+			(xy 156.21 53.34) (xy 158.75 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2063,9 +2396,29 @@
 		)
 		(uuid "d1d9b19a-8740-4c17-81aa-627f7e80b36a")
 	)
+	(bus
+		(pts
+			(xy 58.42 171.45) (xy 58.42 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67203a6-101e-4e7a-bff7-34058b414c8f")
+	)
 	(wire
 		(pts
-			(xy 116.84 46.99) (xy 119.38 46.99)
+			(xy 55.88 173.99) (xy 50.8 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e8d7ad-7a57-4fee-acca-37d5845608c9")
+	)
+	(wire
+		(pts
+			(xy 158.75 53.34) (xy 161.29 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2073,31 +2426,128 @@
 		)
 		(uuid "efeb25f8-f06a-4544-97dc-70e42f211a84")
 	)
-	(hierarchical_label "CAN_RX"
-		(shape bidirectional)
-		(at 140.97 85.09 0)
+	(label "CAN_TX"
+		(at 182.88 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "b39cf218-b9ed-4cb6-9577-7a70df8c7f2a")
+		(uuid "24a66e7b-0714-4c9b-89c8-7de827e1b51e")
 	)
-	(hierarchical_label "CAN_TX"
+	(label "CAN_L"
+		(at 50.8 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3324aa84-dac6-461d-843e-2f87f0780510")
+	)
+	(label "CAN_RX"
+		(at 182.88 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d1c5893-7774-4372-ae6c-cc753569ba49")
+	)
+	(label "CAN_H"
+		(at 50.8 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "780829ad-ad2a-4890-83fc-0dc452543959")
+	)
+	(label "CAN_RX"
+		(at 25.4 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b4c0f2c-bf56-44e5-831b-41414a01f708")
+	)
+	(label "CAN_TX"
+		(at 25.4 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6851ea5-75c5-4348-8bdc-d81705759d4b")
+	)
+	(hierarchical_label "display{7W_SPI}"
 		(shape bidirectional)
-		(at 140.97 82.55 0)
+		(at 242.57 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d2d7b2f5-82d8-4c8b-8085-7c03c68bcb0b")
+		(uuid "91a8789d-4f02-44ab-b4ac-fd9047b35868")
+		(property "Netclass" "SPI"
+			(at 242.57 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "{CAN}"
+		(shape bidirectional)
+		(at 63.5 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4d22f86-02b7-4910-9f44-56273dde920d")
+		(property "Netclass" "CAN"
+			(at 63.5 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "GPIO[0..4]"
+		(shape bidirectional)
+		(at 219.71 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7be30c2-53f2-42cf-9818-72d44ddf402f")
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 92.71 30.48 0)
+		(at 38.1 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2106,9 +2556,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "886fb563-7e9a-4d3f-8c76-7230acd40628")
-		(property "Reference" "#PWR05"
-			(at 92.71 34.29 0)
+		(uuid "7e0bc1ee-d255-4da2-9ebd-c5bab07d0867")
+		(property "Reference" "#PWR02"
+			(at 38.1 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2119,7 +2569,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 92.71 25.4 0)
+			(at 38.1 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2129,7 +2579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 30.48 0)
+			(at 38.1 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2140,7 +2590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 30.48 0)
+			(at 38.1 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,7 +2601,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 92.71 30.48 0)
+			(at 38.1 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcd7e673-b373-4240-bfec-5fce1679c4e8")
+		)
+		(instances
+			(project "ebike-controller"
+				(path "/4009f96e-4900-49c5-a598-c1fd5202ca89/73a197c8-8a86-401e-a63e-1ccb5130b3eb"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 134.62 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "886fb563-7e9a-4d3f-8c76-7230acd40628")
+		(property "Reference" "#PWR05"
+			(at 134.62 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 134.62 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 134.62 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2175,7 +2703,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 97.79 34.29 0)
+		(at 139.7 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2186,7 +2714,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab4ceae2-af06-4dab-a169-e6137302e2b9")
 		(property "Reference" "C1"
-			(at 101.6 33.0199 0)
+			(at 143.51 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2197,7 +2725,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 101.6 35.5599 0)
+			(at 143.51 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2208,7 +2736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.7552 38.1 0)
+			(at 140.6652 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,7 +2747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 34.29 0)
+			(at 139.7 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2230,7 +2758,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 97.79 34.29 0)
+			(at 139.7 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2257,7 +2785,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 38.1 0)
+		(at 38.1 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2266,9 +2794,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf69b3d4-bc4d-4c8d-aced-d2783410a3cc")
-		(property "Reference" "#PWR06"
-			(at 97.79 44.45 0)
+		(uuid "b8bffa5e-37cd-4e0f-b28f-c49df9035db8")
+		(property "Reference" "#PWR01"
+			(at 38.1 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,7 +2807,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 43.18 0)
+			(at 38.1 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2289,7 +2817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 38.1 0)
+			(at 38.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2300,7 +2828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 38.1 0)
+			(at 38.1 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2311,7 +2839,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 38.1 0)
+			(at 38.1 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99fade8b-1378-40f5-a560-e12cd486735f")
+		)
+		(instances
+			(project "ebike-controller"
+				(path "/4009f96e-4900-49c5-a598-c1fd5202ca89/73a197c8-8a86-401e-a63e-1ccb5130b3eb"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf69b3d4-bc4d-4c8d-aced-d2783410a3cc")
+		(property "Reference" "#PWR06"
+			(at 139.7 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2335,7 +2941,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32F4:STM32F405RGTx")
-		(at 111.76 95.25 0)
+		(at 153.67 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2346,7 +2952,7 @@
 		(fields_autoplaced yes)
 		(uuid "c96fe0e2-92f7-40a7-8c9d-0722ff831251")
 		(property "Reference" "U1"
-			(at 116.4433 143.51 0)
+			(at 158.3533 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2357,7 +2963,7 @@
 			)
 		)
 		(property "Value" "STM32F405RGTx"
-			(at 116.4433 146.05 0)
+			(at 158.3533 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2368,7 +2974,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 93.98 140.97 0)
+			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2380,7 +2986,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f405rg.pdf"
-			(at 111.76 95.25 0)
+			(at 153.67 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2391,7 +2997,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64"
-			(at 111.76 95.25 0)
+			(at 153.67 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,7 +3212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 146.05 0)
+		(at 153.67 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2617,7 +3223,7 @@
 		(fields_autoplaced yes)
 		(uuid "d50faeaa-6b83-4a7c-a1cc-d85f09d87803")
 		(property "Reference" "#PWR07"
-			(at 111.76 152.4 0)
+			(at 153.67 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2628,7 +3234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 151.13 0)
+			(at 153.67 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2638,7 +3244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 146.05 0)
+			(at 153.67 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2649,7 +3255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 146.05 0)
+			(at 153.67 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2660,7 +3266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 146.05 0)
+			(at 153.67 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,6 +3283,107 @@
 			(project "ebike-controller"
 				(path "/4009f96e-4900-49c5-a598-c1fd5202ca89/73a197c8-8a86-401e-a63e-1ccb5130b3eb"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_CAN_LIN:TCAN330")
+		(at 38.1 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec1058ae-266d-4c06-8b25-8759a0dd77f3")
+		(property "Reference" "U2"
+			(at 40.2433 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCAN330"
+			(at 40.2433 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 38.1 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+			(at 38.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
+			(at 38.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e61d66cc-b051-4ffd-b20d-2deb0a87956e")
+		)
+		(pin "2"
+			(uuid "6a02e559-6e9e-4bb6-90bb-05f8e5a6c0ac")
+		)
+		(pin "6"
+			(uuid "a682a13a-2a56-4487-84a4-2c41ed099efe")
+		)
+		(pin "5"
+			(uuid "f55dec71-ff2d-4530-b9e9-d0b7b6b7de2a")
+		)
+		(pin "4"
+			(uuid "71dcb8e8-ccc1-46c0-9427-ea7017c141cc")
+		)
+		(pin "7"
+			(uuid "80af2b8b-e8b1-4082-82a6-d8ec395a20c5")
+		)
+		(pin "8"
+			(uuid "b548b9e3-f0a9-4043-9933-2fb9f0a94aaa")
+		)
+		(pin "3"
+			(uuid "370a7377-3e7c-43ce-b20a-66afccc62589")
+		)
+		(instances
+			(project "ebike-controller"
+				(path "/4009f96e-4900-49c5-a598-c1fd5202ca89/73a197c8-8a86-401e-a63e-1ccb5130b3eb"
+					(reference "U2")
 					(unit 1)
 				)
 			)
