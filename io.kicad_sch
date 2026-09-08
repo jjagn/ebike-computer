@@ -2642,7 +2642,7 @@
 			(justify right)
 		)
 		(uuid "77aee738-7e79-4228-bc22-9ee9d6e7ed76")
-		(property "Net Class" "CAN"
+		(property "Netclass" "CAN"
 			(at 123.19 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2687,7 +2687,7 @@
 			(justify right)
 		)
 		(uuid "dce554f2-0496-4ab8-a417-381fd161e3a2")
-		(property "Net Class" "SPI"
+		(property "Netclass" "SPI"
 			(at 101.6 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2901,7 +2901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 142.24 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3059,7 +3059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 205.74 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3492,7 +3492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 85.09 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3571,7 +3571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 220.98 37.338 90)
 			(hide yes)
 			(show_name no)
@@ -3650,7 +3650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 220.98 34.798 90)
 			(hide yes)
 			(show_name no)
@@ -4044,7 +4044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0800_1x08_P3.00mm_Horizontal"
 			(at 143.51 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4119,7 +4119,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b4a2392-4f20-4de3-b17b-b2bd40ae5cf1")
 		(property "Reference" "J6"
@@ -4144,7 +4144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 142.24 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4359,7 +4359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 85.09 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4519,7 +4519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0800_1x08_P3.00mm_Horizontal"
 			(at 142.24 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4697,7 +4697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 142.24 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4857,7 +4857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 142.24 92.71 0)
 			(hide yes)
 			(show_name no)

@@ -7412,7 +7412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.9152 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7569,7 +7569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 102.87 53.6448 0)
 			(hide yes)
 			(show_name no)
@@ -7648,7 +7648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 238.76 53.6448 0)
 			(hide yes)
 			(show_name no)
@@ -7727,7 +7727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jackson:RZT0020A-MFG"
 			(at 76.2 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7761,6 +7761,61 @@
 			)
 		)
 		(property "Field5" ""
+			(at 76.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 76.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 76.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 76.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 76.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 76.2 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8113,7 +8168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 54.3052 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8273,7 +8328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.1952 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8492,7 +8547,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f1323e8-9967-47af-a739-799fd07f8bbf")
 		(property "Reference" "R1"
-			(at 36.83 69.8499 0)
+			(at 36.83 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8502,8 +8557,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 36.83 72.3899 0)
+		(property "Value" "100k"
+			(at 36.83 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8513,7 +8568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 32.512 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -8595,7 +8650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 67.0052 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8677,7 +8732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 202.8952 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8915,7 +8970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9072,7 +9127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jackson:RZT0020A-MFG"
 			(at 212.09 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9456,7 +9511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 28.9052 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9538,7 +9593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 41.6052 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9620,7 +9675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 164.7952 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9702,7 +9757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.3452 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9784,7 +9839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 256.2352 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9855,7 +9910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 172.72 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9866,7 +9921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.402 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -9889,6 +9944,61 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 170.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 170.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 170.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 170.18 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 170.18 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9948,7 +10058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 177.4952 39.37 0)
 			(hide yes)
 			(show_name no)

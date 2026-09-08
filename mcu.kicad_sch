@@ -11738,7 +11738,7 @@
 			(justify left)
 		)
 		(uuid "91a8789d-4f02-44ab-b4ac-fd9047b35868")
-		(property "Net Class" "SPI"
+		(property "Netclass" "SPI"
 			(at 244.348 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11762,7 +11762,7 @@
 			(justify left)
 		)
 		(uuid "a4d22f86-02b7-4910-9f44-56273dde920d")
-		(property "Net Class" "CAN"
+		(property "Netclass" "CAN"
 			(at 74.93 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11906,7 +11906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 125.73 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11997,7 +11997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.65 69.088 90)
 			(hide yes)
 			(show_name no)
@@ -12078,7 +12078,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 134.112 90)
 			(hide yes)
 			(show_name no)
@@ -12160,7 +12160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.7548 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12242,7 +12242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.1752 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12324,7 +12324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 55.5752 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12481,7 +12481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 125.73 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12652,7 +12652,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 122.2248 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -12890,7 +12890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.2752 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13128,7 +13128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.3752 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13209,7 +13209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 116.332 90)
 			(hide yes)
 			(show_name no)
@@ -13374,7 +13374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.1352 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13456,7 +13456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 137.4648 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13616,7 +13616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 42.8752 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13695,7 +13695,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 33.02 91.7448 0)
 			(hide yes)
 			(show_name no)
@@ -13865,7 +13865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
 			(at 45.72 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13958,7 +13958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.35 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -14040,7 +14040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 51.562 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -14121,7 +14121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 51.562 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -14383,7 +14383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -14621,7 +14621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 18.7452 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14700,7 +14700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.35 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -15016,7 +15016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.978 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -15258,7 +15258,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 184.4548 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -15617,7 +15617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.35 89.408 90)
 			(hide yes)
 			(show_name no)
@@ -15855,7 +15855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 39.0652 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16012,7 +16012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 125.73 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -16180,7 +16180,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 64.77 91.7448 0)
 			(hide yes)
 			(show_name no)
@@ -16449,7 +16449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 255.27 124.968 90)
 			(hide yes)
 			(show_name no)
