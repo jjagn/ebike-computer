@@ -147,7 +147,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "5a7e30cb-26ab-4cc2-9905-1435afabfd90")
-		(property "Sheetname" "Power Regulation"
+		(property "Sheetname" "Power"
 			(at 95.25 81.8384 0)
 			(show_name no)
 			(do_not_autoplace no)
