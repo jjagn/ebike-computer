@@ -123,6 +123,16 @@
 				(justify left)
 			)
 		)
+		(pin "USB{USB}" bidirectional
+			(at 157.48 60.96 180)
+			(uuid "c77718f2-4d2d-477a-8eee-83dd943dd810")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ebike-controller"
 				(path "/4009f96e-4900-49c5-a598-c1fd5202ca89"
@@ -245,6 +255,16 @@
 				(justify right)
 			)
 		)
+		(pin "USB{USB}" bidirectional
+			(at 115.57 60.96 0)
+			(uuid "85ed8c20-f93c-4379-b1cb-a579371d8b61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ebike-controller"
 				(path "/4009f96e-4900-49c5-a598-c1fd5202ca89"
@@ -298,6 +318,16 @@
 				)
 			)
 		)
+	)
+	(bus
+		(pts
+			(xy 115.57 60.96) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b42b73-7a03-4a13-a794-f714aeda2c6a")
 	)
 	(sheet_instances
 		(path "/"

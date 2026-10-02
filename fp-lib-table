@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ebike-controller")(type "KiCad")(uri "${KIPRJMOD}/ebike-controller.pretty")(options "")(descr "Project footprints"))
+)
