@@ -8008,7 +8008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "jackson:Inductor_SMD_7.4mmx6.6mm"
 			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8031,6 +8031,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 243.84 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C53462990"
 			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8408,7 +8419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "jackson:Inductor_SMD_7.4mmx6.6mm"
 			(at 107.95 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8431,6 +8442,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 107.95 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C51933839"
 			(at 107.95 46.99 0)
 			(hide yes)
 			(show_name no)

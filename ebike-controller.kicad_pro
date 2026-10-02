@@ -41,7 +41,7 @@
         "pads": {
           "drill": 0.8,
           "height": 1.27,
-          "width": 1.27
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -511,27 +511,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "name": "CAN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(181, 77, 255)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(255, 0, 11)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(107, 188, 255)",
-        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -542,19 +521,22 @@
       "+3V3": [
         "SPI"
       ],
+      "/IO/CAN": [
+        "CAN"
+      ],
       "/IO/CAN_H": [
         "CAN"
       ],
       "/IO/CAN_L": [
         "CAN"
       ],
+      "/IO/display.7W_SPI": [
+        "SPI"
+      ],
       "/IO/display.CS": [
         "SPI"
       ],
       "/IO/display.DC": [
-        "SPI"
-      ],
-      "/IO/display.GND": [
         "SPI"
       ],
       "/IO/display.RES": [
@@ -564,9 +546,6 @@
         "SPI"
       ],
       "/IO/display.SDA(MOSI)": [
-        "SPI"
-      ],
-      "/IO/display.VCC": [
         "SPI"
       ],
       "/IO/display{7W_SPI}": [
@@ -670,17 +649,21 @@
     },
     "bus_aliases": {
       "7W_SPI": [
-        "SDA(MOSI)",
         "CS",
         "DC",
         "RES",
         "VCC",
         "SCK",
+        "SDA(MOSI)",
         "GND"
       ],
       "CAN": [
         "CAN_H",
         "CAN_L"
+      ],
+      "USB": [
+        "DM",
+        "DP"
       ]
     },
     "connection_grid_size": 50.0,
@@ -689,7 +672,13 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "LCSC Part Number",
+          "url": false,
+          "visible": false
+        }
+      ],
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -723,7 +712,7 @@
         "uuid": "4009f96e-4900-49c5-a598-c1fd5202ca89"
       }
     ],
-    "used_designators": "#PWR1-4,#PWR8-16,J1-10,U1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

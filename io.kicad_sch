@@ -2642,7 +2642,7 @@
 			(justify right)
 		)
 		(uuid "77aee738-7e79-4228-bc22-9ee9d6e7ed76")
-		(property "Netclass" "CAN"
+		(property "Net Class" "CAN"
 			(at 123.19 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2687,7 +2687,7 @@
 			(justify right)
 		)
 		(uuid "dce554f2-0496-4ab8-a417-381fd161e3a2")
-		(property "Netclass" "SPI"
+		(property "Net Class" "SPI"
 			(at 101.6 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)

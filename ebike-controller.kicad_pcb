@@ -2235,6 +2235,130 @@
 			)
 		)
 	)
+	(footprint "jackson:Inductor_SMD_7.4mmx6.6mm"
+		(layer "F.Cu")
+		(uuid "28614134-a0e6-4fa7-9bcf-13346cb7434a")
+		(at 111.9 98.325)
+		(property "Reference" "L1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "006c47b8-224a-43a5-b17a-875291c51719")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "6.8uH"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fd7d9104-725f-48e8-9105-55636473047c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "012c2430-4402-4836-ace4-3b489306973e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c96da5a-0f6c-449b-979e-52f928c6da40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C51933839"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4501c2f-cd5e-4350-8d1d-d631253b73c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/5a7e30cb-26ab-4cc2-9905-1435afabfd90/476e7109-4096-4f85-806c-5c0c657f2a1d")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -3.7 -3.3)
+			(end 3.7 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c150dda1-a9bc-4840-ab2b-998ba9a71dd0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4a8b6735-3f1b-4bf5-8475-7e7bb8dd6c7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -3.025 0 90)
+			(size 3.5 2.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "Net-(U3-SW1)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "e651b4a9-6428-46af-8aa8-911d51d8e1c4")
+		)
+		(pad "2" smd roundrect
+			(at 3.025 0 90)
+			(size 3.5 2.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "+3V3")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "7f3c8d5e-964a-4ef7-a350-89937cc53710")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2870b1bb-4572-4bc2-b7e8-1a701bbea102")
@@ -11911,7 +12035,7 @@
 			(unit
 				(name "A")
 				(pins "7" "60" "5" "6" "54" "8" "9" "10" "11" "24" "25" "37" "38" "39"
-					"40" "51" "52" "53" "2" "3" "4" "31" "47" "1" "19" "32" "63" "18" "48"
+					"40" "51" "52" "53" "2" "3" "4" "31" "47" "1" "19" "32" "18" "63" "48"
 					"12" "64" "13" "14" "15" "16" "17" "20" "21" "22" "23" "41" "42" "43"
 					"44" "45" "46" "49" "50" "26" "27" "28" "55" "56" "57" "58" "59" "61"
 					"62" "29" "30" "33" "34" "35" "36"
@@ -14175,6 +14299,130 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "jackson:Inductor_SMD_7.4mmx6.6mm"
+		(layer "F.Cu")
+		(uuid "fd2cb049-c367-41ac-a2a4-9e167a1d1458")
+		(at 111.9 105.975)
+		(property "Reference" "L2"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e7ac2349-5775-4ab6-b07c-2175782972f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "8.2uH"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ecfe18d3-140e-483f-bf24-0af9c0cbb10d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ac09b9b-9ff2-4cc9-961f-f8f4649ebee0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69880fbd-9d5d-42cd-be73-014fa248d3e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C53462990"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b8dd2a8-34be-45ff-8aef-b672de23d96e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/5a7e30cb-26ab-4cc2-9905-1435afabfd90/2cf99a7a-04e1-413f-b6f7-0081802a10b8")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -3.7 -3.3)
+			(end 3.7 3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b02e8d7d-5b13-472b-9e78-e3feb052b18c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1f918532-8d42-431a-a01c-8e0887322d96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -3.025 0 90)
+			(size 3.5 2.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "Net-(U4-SW1)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "a1737d90-6d39-4f7a-88fc-7d40e68161ee")
+		)
+		(pad "2" smd roundrect
+			(at 3.025 0 90)
+			(size 3.5 2.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.15)
+			(net "+5V")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "843c3471-d84a-4c2d-b893-a6130989c2fa")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
