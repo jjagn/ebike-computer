@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 115.57 60.96) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b42b73-7a03-4a13-a794-f714aeda2c6a")
+	)
+	(bus
+		(pts
 			(xy 115.57 58.42) (xy 157.48 58.42)
 		)
 		(stroke
@@ -116,6 +126,16 @@
 		(pin "GPIO[0..4]" bidirectional
 			(at 157.48 53.34 180)
 			(uuid "6291b01c-0663-4b94-9c40-512725b36115")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 157.48 60.96 180)
+			(uuid "c77718f2-4d2d-477a-8eee-83dd943dd810")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,6 +258,16 @@
 		(pin "GPIO[0..4]" bidirectional
 			(at 115.57 53.34 0)
 			(uuid "a477325f-3e6c-40b5-89bd-ff05ba946b17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 115.57 60.96 0)
+			(uuid "85ed8c20-f93c-4379-b1cb-a579371d8b61")
 			(effects
 				(font
 					(size 1.27 1.27)
