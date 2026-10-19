@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 115.57 60.96) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b42b73-7a03-4a13-a794-f714aeda2c6a")
+	)
+	(bus
+		(pts
 			(xy 115.57 58.42) (xy 157.48 58.42)
 		)
 		(stroke
@@ -318,16 +328,6 @@
 				)
 			)
 		)
-	)
-	(bus
-		(pts
-			(xy 115.57 60.96) (xy 157.48 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b42b73-7a03-4a13-a794-f714aeda2c6a")
 	)
 	(sheet_instances
 		(path "/"
